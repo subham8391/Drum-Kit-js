@@ -12,7 +12,7 @@ body{
     
 }
 header{
-    padding: 30px;
+    padding: 20px;
 }
 .txt{
     text-align: center;
@@ -61,4 +61,24 @@ kbd{
     transform: scale(1.1);
     border-color:#ffc600 ;
     box-shadow: 0 0 10px #ffc600;
+}
+@media only screen and (max-width:850px) {
+    .container{
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .keys{
+        justify-content: center;
+        align-items: center;
+        height:auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+    .key{
+        margin: 30px 40px;
+    }
 }
