@@ -4,11 +4,13 @@
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-/* main{
-    background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-} */
+body{
+    
+    background: url("/image/theo-eilertsen-photography-04aMmb0Ijw0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 header{
     padding: 20px;
 }
